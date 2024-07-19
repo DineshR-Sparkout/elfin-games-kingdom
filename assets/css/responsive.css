@@ -1,0 +1,347 @@
+@media(max-width:1399px){
+    .navbar-nav{
+        gap: 40px;
+    }    
+    .nav-head{
+        padding: 8px 65px;
+    }    
+    .nav-link{
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+    }   
+    .elfin-para{
+        padding-right: 150px;
+    }    
+    .elfin-head{
+        padding-right: 0;
+    }
+}
+@media(max-width:1199px){
+    .nav-head{
+        padding: 8px 50px;
+    }    
+    .navbar-nav{
+        gap: 20px;
+    }   
+    .nav-link{
+        padding-right: 27px !important;
+        padding-left: 27px !important;
+    }  
+    .btn-wallet{
+        padding: 7px 20px;
+        gap: 8px;
+    }   
+    .fs-6{
+        font-size: 15px !important;
+    }  
+    .elfin-para{
+        padding-right: 100px;
+        padding-bottom: 30px;
+        font-size: 17px;
+    }    
+    .kingdom-section{
+        padding: 90px 0 90px 0;
+    }    
+    .toon-content-gap{
+        gap: 50px;
+    }    
+    .elfin-head{
+        font-size: 44px;
+        padding-bottom: 30px;
+    } 
+    .explore-btn{
+        font-size: 17px;
+    }    
+    .toon-gap{
+        gap: 18px;
+    }  
+    .register-para{
+        font-size: 19px;
+    }  
+    .card-section{
+        padding: 50px 0;
+    }
+    .elfin-card-head{
+        font-size: 26px;
+    }    
+    .gaming-section{
+        padding: 130px 0;
+    }    
+    .game-pad{
+        padding-right: 60px;
+    }    
+    .gaming-card{
+        padding: 30px 25px;
+        gap: 30px;
+    }   
+    .game-card-head{
+        font-size: 20px;
+    }     
+}
+@media(max-width:991px){
+    .nav-head{
+        padding: 8px 40px;
+    }  
+    .navbar-nav{
+        gap: 20px;
+    }  
+    .nav-link{
+        padding-right: 24px !important;
+        padding-left: 0 !important;
+        padding-bottom: 17px !important;
+        padding-top: 17px;
+    }    
+    .nav-link.active::before{
+        bottom: 0;
+    }    
+    .nav-link::before{
+        bottom: 0;
+    } 
+    .elfin-kingdom-logo{
+        width: 80%;
+    }
+    .navbar-toggler-icon{
+        height: 20px;
+        width: 20px;
+    }
+    .navbar-toggler{
+        padding: 5px 10px;
+    }
+    .kingdom-section{
+        padding: 80px 0 80px 0;
+    }    
+    .toon-content-gap{
+        gap: 40px;
+    }  
+    .elfin-head{
+        font-size: 36px;
+        padding-bottom: 27px;
+    }      
+    .elfin-para{
+        padding-right: 0;
+        padding-bottom: 27px;
+        font-size: 16px;
+        text-indent: 0;
+    }   
+    .explore-btn{
+        padding: 10px 20px;
+        gap: 9px;
+        font-size: 16px;
+    }   
+    .toon-gap{
+        gap: 15px;
+    }      
+    .register-para{
+        font-size: 18px;
+    }  
+    .animal-position{
+        position: static;
+    }
+    .cartoon-animals{
+        max-width: 100%;
+        height: auto;
+    }
+    .kingdom-section::before,.animal-bg::before,.kingdom-bg::before{
+        width:50%;
+    }
+    .card-section{
+        padding: 45px 0;
+    }    
+    .elfin-card{
+        padding: 15px 12px !important;
+    }    
+    .elfin-card-head{
+        font-size: 24px;
+    }
+    .card-toons{
+        width: 75%;
+    }    
+    .gaming-section{
+        padding: 100px 0;
+    }    
+    .game-pad{
+        padding-right: 0;
+    }    
+    .gaming-card{
+        padding: 27px 20px;
+        gap: 25px;
+    }    
+    .game-card-head{
+        font-size: 18px;
+    }     
+}
+@media(max-width:767px){
+    .nav-head{
+        padding: 7px 30px;
+    }    
+    .nav-link{
+        padding-right: 21px !important;
+        padding-bottom: 15px !important;
+        padding-top: 15px;
+    }   
+    .btn-wallet{
+        padding: 6px 15px;
+        gap: 6px;
+    }     
+    .fs-6{
+        font-size: 14px !important;
+    }  
+    .kingdom-section{
+        padding: 70px 0 70px 0;
+    }    
+    .toon-content-gap{
+        gap: 32px;
+    }  
+    .elfin-head{
+        font-size: 28px;
+        padding-bottom: 24px;
+    }        
+    .elfin-para{
+        padding-bottom: 24px;
+        font-size: 15px;
+    } 
+    .explore-btn{
+        padding: 9px 18px;
+        gap: 8px;
+        font-size: 15px;
+    }     
+    .toon-gap{
+        gap: 12px;
+    }      
+    .register-para{
+        font-size: 17px;
+    }  
+    .card-section{
+        padding: 40px 0;
+    }   
+    .elfin-card{
+        padding: 15px 12px !important;
+    }    
+    .elfin-card-head{
+        font-size: 22px;
+    }     
+    .gaming-section{
+        padding: 80px 0;
+    }    
+    .gaming-card{
+        padding: 24px 18px;
+        gap: 20px;
+    }    
+    .game-card-head{
+        font-size: 17px;
+    }     
+}
+@media(max-width:575px){
+    .nav-head{
+        padding: 7px 20px;
+    }    
+    .navbar-nav{
+        gap: 10px;
+    }      
+    .nav-link{
+        padding-right: 18px !important;
+        padding-bottom: 12px !important;
+        padding-top: 12px;
+    }    
+    .kingdom-section{
+        padding: 60px 0 60px 0;
+    }    
+    .toon-content-gap{
+        gap: 24px;
+    }    
+    .elfin-head{
+        font-size: 24px;
+        padding-bottom: 20px;
+    }    
+    .elfin-para{
+        padding-bottom: 20px;
+        font-size: 14px;
+    }   
+    .explore-btn{
+        padding: 8px 16px;
+        gap: 7px;
+        font-size: 14px;
+    }   
+    .toon-gap{
+        gap: 9px;
+    }  
+    .register-para{
+        font-size: 16px;
+    }      
+    .card-section{
+        padding: 35px 0;
+    }   
+    .elfin-card{
+        padding: 12px 9px !important;
+    }    
+    .elfin-card-head{
+        font-size: 20px;
+    }  
+    .gaming-section{
+        padding: 60px 0;
+    }      
+    .gaming-card{
+        padding: 21px 15px;
+        gap: 18px;
+    }      
+    .game-card-head{
+        font-size: 16px;
+    }             
+}
+@media(max-width:400px){
+    .nav-head{
+        padding: 6px 10px;
+    }  
+    .nav-link{
+        padding-right: 15px !important;
+        padding-bottom: 10px !important;
+        padding-top: 10px;
+    }   
+    .btn-wallet{
+        padding: 5px 12px;
+    }     
+    .fs-6{
+        font-size: 13px !important;
+    }         
+    .kingdom-section{
+        padding: 50px 0 50px 0;
+    }  
+    .toon-content-gap{
+        gap: 16px;
+    }    
+    .elfin-head{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }      
+    .elfin-para{
+        padding-bottom: 15px;
+        font-size: 13px;
+    }            
+    .explore-btn{
+        padding: 7px 14px;
+        gap: 6px;
+        font-size: 13px;
+    }  
+    .toon-gap{
+        gap: 6px;
+    }  
+    .register-para{
+        font-size: 15px;
+    }      
+    .card-section{
+        padding: 30px 0;
+    }     
+    .elfin-card-head{
+        font-size: 18px;
+    }  
+    .gaming-section{
+        padding: 40px 0;
+    }    
+    .gaming-card{
+        padding: 18px 12px;
+        gap: 15px;
+    }    
+    .game-card-head{
+        font-size: 15px;
+    }                         
+}

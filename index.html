@@ -13,128 +13,263 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
     </head>
     <body>
-        <header class="sticky-top bg-white">
-            <!-- <nav class="navbar navbar-expand-lg py-0">
-                <div class="container-fluid nav-head">
-                  <a class="navbar-brand me-0 py-0" href="javascript:void(0)">
-                    <img src="assets/images/elfin_games_icon.svg" width="201" height="58" alt="elfin-games-logo" class="img-fluid">
+      <header class="sticky-top bg-white">
+        <nav class="navbar navbar-expand-lg py-0">
+          <div class="container-fluid nav-head">
+            <a class="navbar-brand py-0 me-0" href="javascript:void(0)">
+              <img src="assets/images/elfin-kingdom-logo.svg" alt="elfin-kingdom-logo" height="58" width="201" loading="lazy" class="img-fluid elfin-kingdom-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item  dropdown">
+                  <a class="nav-link d-flex gap-1 align-items-center active fs-6 dropdown-toggle fw-bold" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Build
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                      <path d="M3.5 5.25L6.58752 8.33752C6.78195 8.53195 6.87919 8.62919 7 8.62919C7.12081 8.62919 7.21805 8.53195 7.41247 8.33752L10.5 5.25" stroke="#23273B" class="drop-icon"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
                   </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav mx-lg-auto navbar-nav-lg-scroll mt-3 mt-lg-0 align-items-lg-center">
-                      <li class="nav-item active dropdown">
-                        <a class="nav-link p-0 dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <span class="pe-1 nav-text fs-6 fw-bold">Build</span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                            <path d="M3.5 5.25L6.58752 8.33752C6.78195 8.53195 6.87919 8.62919 7 8.62919C7.12081 8.62919 7.21805 8.53195 7.41247 8.33752L10.5 5.25" stroke="#23273B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </a>
-                        <ul class="dropdown-menu border-0 shadow-lg">
-                          <li>
-                            <a class="dropdown-item " href="javascript:void(0)">item-1</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item " href="javascript:void(0)">item-2</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item " href="javascript:void(0)">item-3</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="javascript:void(0)">
-                          <span class="nav-text fs-6 fw-bold">Games</span>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link p-0" href="javascript:void(0)">
-                          <span class="nav-text fs-6 fw-bold">Platform</span>
-                        </a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link p-0 dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <span class="pe-1 nav-text fs-6 fw-bold">About</span>
-                          <svg xmlns="http://www.w3.org/2000/svg" class="bag-icon" viewBox="0 0 14 14" fill="none">
-                            <path d="M3.5 5.25L6.58752 8.33752C6.78195 8.53195 6.87919 8.62919 7 8.62919C7.12081 8.62919 7.21805 8.53195 7.41247 8.33752L10.5 5.25" stroke="#23273B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </a>
-                        <ul class="dropdown-menu border-0 shadow-lg">
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0)">item-1</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0)">item-2</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0)">item-3</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                    <button type="button" class="d-flex align-items-center fs-6 btn-wallet border-0 rounded-3 fw-bold"><img src="assets/images/wallet.png"/>Wallet</button>
+                  <ul class="dropdown-menu p-0 mt-0 shadow-lg">
+                    <li>
+                      <a class="dropdown-item fw-semibold fs-6" href="javascript:void(0)">Item-1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item fw-semibold fs-6" href="javascript:void(0)">Item-2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item fw-semibold fs-6" href="javascript:void(0)">Item-3</a>
+                    </li>
+                  </ul>  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-6 fw-bold" href="#">Games</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-6 fw-bold" href="#">Platform</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fs-6 fw-bold d-flex gap-1 align-items-center" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">About
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                      <path d="M3.5 5.25L6.58752 8.33752C6.78195 8.53195 6.87919 8.62919 7 8.62919C7.12081 8.62919 7.21805 8.53195 7.41247 8.33752L10.5 5.25" stroke="#23273B" class="drop-icon" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </a>
+                  <ul class="dropdown-menu p-0 mt-0 shadow-lg">
+                    <li>
+                        <a class="dropdown-item fw-semibold fs-6" href="javascript:void(0)">Item-1</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item fw-semibold fs-6" href="javascript:void(0)">Item-2</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item fw-semibold fs-6" href="javascript:void(0)">Item-3</a>
+                    </li>
+                  </ul>  
+                </li>
+              </ul>
+              <button type="button" class="d-flex btn-wallet border-0 fs-6 fw-bold align-items-center"><img src="assets/images/wallet.svg" alt="wallet" height="24" width="24" loading="lazy" />Wallet</button>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="kingdom-section">
+        <div class="container">
+          <div class="row position-relative">
+            <div class="col-12 col-lg-6 kingdom-bg order-2 order-lg-1">
+              <div class="toon-content-gap d-flex flex-column">
+                <div>
+                  <h1 class="elfin-head fw-bold mb-0">Discover a New World of Fun with The Elfin Kingdom</h1>
+                  <p class="elfin-para fw-medium mb-0">Elfin Arcade is a gaming platform for users, players, content creators, investors and developers that is easy to use, fun and suitable for everyone!</p>
+                  <button type="button" class="explore-btn fw-bold border-0" >Explore the Games</button>
+                </div>
+                <div class="toon-gap d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+                  <div>
+                    <picture>
+                      <source type="image/webp" src="assets/images/toon-right.webp" />
+                      <source type="image/png" src="assets/images/toon-right.png" />
+                      <img src="assets/images/toon-right.png" alt="toon-right" width="65" height="69" loading="lazy" class="img-fluid" />
+                    </picture>
+                    <picture class="toons">
+                      <source type="image/webp" src="assets/images/toon-coolers.webp" />
+                      <source type="image/png" src="assets/images/toon-coolers.png" />
+                      <img src="assets/images/toon-coolers.png" alt="toon-coolers" width="65" height="69" loading="lazy" class="img-fluid" />
+                    </picture>
+                    <picture class="toons">
+                      <source type="image/webp" src="assets/images/toon-smile.webp" />
+                      <source type="image/png" src="assets/images/toon-smile.png" />
+                      <img src="assets/images/toon-smile.png" alt="toon-smile" width="65" height="69" loading="lazy" class="img-fluid"  />
+                    </picture>
+                    <picture class="toons">
+                      <source type="image/webp" src="assets/images/toon-laugh.webp" />
+                      <source type="image/png" src="assets/images/toon-laugh.png" />
+                      <img src="assets/images/toon-laugh.png" alt="toon-laugh" width="65" height="69" loading="lazy" class="img-fluid"  />
+                    </picture>
+                  </div>
+                  <div>
+                    <p class="mb-0 register-para fw-semibold">170K+ Registered Users</p>
                   </div>
                 </div>
-              </nav> -->
-              <nav class="navbar navbar-expand-lg py-0">
-                <div class="container-fluid nav-head">
-                  <a class="navbar-brand py-0 me-0" href="javascript:void(0)">
-                    <img src="assets/images/elfin-kingdom-logo.svg" alt="elfin-kingdom-logo" height="58" width="201" loading="lazy" class="img-fluid" />
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav mx-auto navbar-nav-scroll">
-                      <li class="nav-item  dropdown">
-                        <a class="nav-link d-flex gap-1 align-items-center active fs-6 dropdown-toggle fw-bold" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Build
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                <path d="M3.5 5.25L6.58752 8.33752C6.78195 8.53195 6.87919 8.62919 7 8.62919C7.12081 8.62919 7.21805 8.53195 7.41247 8.33752L10.5 5.25" stroke="#23273B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu p-0 mt-0">
-                            <li>
-                                <a class="dropdown-item" href="javascript:void(0)">Item-1</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="javascript:void(0)">Item-2</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="javascript:void(0)">Item-3</a>
-                            </li>
-                        </ul>  
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link fs-6 fw-bold" href="#">Games</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link fs-6 fw-bold" href="#">Platform</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle fs-6 fw-bold d-flex gap-1 align-items-center" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">About
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                <path d="M3.5 5.25L6.58752 8.33752C6.78195 8.53195 6.87919 8.62919 7 8.62919C7.12081 8.62919 7.21805 8.53195 7.41247 8.33752L10.5 5.25" stroke="#23273B" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu p-0 mt-0">
-                            <li>
-                                <a class="dropdown-item" href="javascript:void(0)">Item-1</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="javascript:void(0)">Item-2</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="javascript:void(0)">Item-3</a>
-                            </li>
-                        </ul>  
-                      </li>
-                    </ul>
-                    <button type="button"><img src="assets/images/wallet.png"/>Wallet</button>
+              </div>
+            </div>
+            <div class="col-12 col-lg-7 col-xxl-8 animal-position order-1 order-lg-2">
+              <div class="animal-bg">
+                <div class="toon-beast pb-4 pb-lg-0">
+                  <picture>
+                    <source type="image/webp" src="assets/images/cartoon-animals.webp" />
+                    <source type="image/png" src="assets/images/cartoon-animals.png" />
+                    <img src="assets/images/cartoon-animals.png" alt="cartoon-animals" width="720" height="507" loading="lazy" class="w-100 cartoon-animals"/>
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="card-section">
+        <div class="container">
+          <div class="row gap-3 gap-lg-0">
+            <div class="col-12 col-lg-4">
+              <div class="elfin-card bg-white d-flex elfin-gap align-items-center border-0 h-100">
+                <div class="toon-shadow">
+                  <picture>
+                    <source type="image/webp" src="assets/images/card-smile.webp" />
+                    <source type="image/png" src="assets/images/card-smile.png" />
+                    <img src="assets/images/card-smile.png" alt="card-smile" width="65" height="69" loading="lazy" class="img-fluid"/>
+                  </picture>    
+                </div>
+                <div>
+                  <div class="card-body p-0 d-flex flex-column gap-1">
+                    <h5 class="card-title mb-0 elfin-card-head fw-medium">50K+</h5>
+                    <p class="card-text mb-0 elfin-card-para fs-6 fw-medium">NFTs traded in our marketplace.</p>
                   </div>
                 </div>
-              </nav>
-        </header>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="elfin-card bg-white d-flex elfin-gap align-items-center border-0 h-100">
+                <div class="toon-shadow">
+                  <picture>
+                    <source type="image/webp" src="assets/images/card-right.webp" />
+                    <source type="image/png" src="assets/images/card-right.png" />
+                    <img src="assets/images/card-right.png" alt="card-right" width="65" height="69" loading="lazy" class="img-fluid"/>
+                  </picture>    
+                </div>
+                <div>
+                  <div class="card-body p-0 d-flex flex-column gap-1">
+                    <h5 class="card-title mb-0 elfin-card-head fw-medium">Up to 60M USD</h5>
+                    <p class="card-text mb-0 elfin-card-para fs-6 fw-medium">Staked during our campaign.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="elfin-card bg-white d-flex elfin-gap align-items-center border-0 h-100">
+                <div class="toon-shadow">
+                  <picture>
+                    <source type="image/webp" src="assets/images/card-coolers.webp" />
+                    <source type="image/png" src="assets/images/card-coolers.png" />
+                    <img src="assets/images/card-coolers.png" alt="card-coolers" width="65" height="69" loading="lazy" class="img-fluid"/>
+                  </picture>    
+                </div>
+                <div>
+                  <div class="card-body p-0 d-flex flex-column gap-1">
+                    <h5 class="card-title mb-0 elfin-card-head fw-medium">26K+</h5>
+                    <p class="card-text mb-0 elfin-card-para fs-6 fw-medium">Transactions Made</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gaming-section">
+        <div class="container">
+          <div class="row align-items-center dragon-content">
+            <div class="col-12 col-lg-6">
+              <div class="toon-dragons pb-4 pb-lg-0">
+                <picture>
+                  <source type="image/webp" src="assets/images/toon-dragons.webp" />
+                  <source type="image/jpg" src="assets/images/toon-dragons.jpg" />
+                  <img src="assets/images/toon-dragons.jpg" alt="toon-dragons" width="546" height="417" loading="lazy" class="img-fluid rounded-3 w-100"/>
+                </picture>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 gaming-content">
+              <div class="ps-lg-5 ps-0">
+                <h2 class="elfin-head fw-bold mb-0">Experience gaming with no limits</h2>
+                <p class="elfin-para fw-medium mb-0 game-pad">Elfin Kingdom is a decentralized gaming ecosystem built for gaming and metaverse projects. Become part of an ecosystem without limits.</p>
+                <button type="button" class="explore-btn fw-bold border-0">Explore the Kingdom</button>
+              </div>
+            </div>
+          </div>
+          <div class="row row-gap-3 row-gap-md-4 row-gap-lg-0">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <a href="javascript:void(0)" class="text-decoration-none">
+                <div class="gaming-card h-100 rounded-5 d-flex flex-column align-items-start">
+                  <div class="toon-shadow">
+                    <picture>
+                      <source type="image/webp" src="assets/images/game-card-laugh.webp" />
+                      <source type="image/png" src="assets/images/game-card-laugh.png" />
+                      <img src="assets/images/game-card-laugh.png" alt="game-card-laugh" width="65" height="69" loading="lazy" class="img-fluid"/>
+                    </picture>  
+                  </div>
+                  <div class="d-flex flex-column gap-2 gap-lg-3">
+                    <h5 class="game-card-head mb-0 fw-bold">Games</h5>
+                    <p class="mb-0 elfin-card-para fs-6 fw-medium">Powered by Elfin, fun and your own adventures.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <a href="javascript:void(0)" class="text-decoration-none">
+                <div class="gaming-card h-100 rounded-5 d-flex flex-column align-items-start">
+                  <div class="toon-shadow">
+                    <picture>
+                      <source type="image/webp" src="assets/images/game-card-sleep.webp" />
+                      <source type="image/png" src="assets/images/game-card-sleep.png" />
+                      <img src="assets/images/game-card-sleep.png" alt="game-card-sleep" width="65" height="69" loading="lazy" class="img-fluid"/>
+                    </picture>  
+                  </div>
+                  <div class="d-flex flex-column gap-2 gap-lg-3">
+                    <h5 class="game-card-head mb-0 fw-bold">Marketplace</h5>
+                    <p class="mb-0 elfin-card-para fs-6 fw-medium">Collect, trade, launch and play with your favorite characters.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <a href="javascript:void(0)" class="text-decoration-none">
+                <div class="gaming-card h-100 rounded-5 d-flex flex-column align-items-start">
+                  <div class="toon-shadow">
+                    <picture>
+                      <source type="image/webp" src="assets/images/game-card-blue.webp" />
+                      <source type="image/png" src="assets/images/game-card-blue.png" />
+                      <img src="assets/images/game-card-blue.png" alt="game-card-blue" width="65" height="69" loading="lazy" class="img-fluid"/>
+                    </picture>  
+                  </div>
+                  <div class="d-flex flex-column gap-2 gap-lg-3">
+                    <h5 class="game-card-head mb-0 fw-bold">Staking</h5>
+                    <p class="mb-0 elfin-card-para fs-6 fw-medium">Staking empowers asset holders to earn rewards while participating actively</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="arcade-section">
+        <div class="container-fluid">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-7">
+              <h2 class="elfin-head fw-bold text-center pe-0 mb-0">Elfin Arcade</h2>
+              <p class="elfin-para fw-medium text-center px-4 discover-para mb-0">Discover a new realm of gaming on the Elfin Arcade, a hub of games powered by $ELFIN uniting gamers, investors and developers seamlessly.</p>
+            </div>
+          </div>
+          <div class="owl-carousel">
+
+          </div>
+        </div>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
