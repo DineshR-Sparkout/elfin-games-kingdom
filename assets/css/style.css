@@ -323,3 +323,12 @@ nav{
     text-indent: 0;
     padding-bottom: 65px;
 }
+.elfin-carousel{
+    gap: 32px;
+    width: 380px;
+}
+.kingdom-img{
+    width: 380px;
+    height: 192px;
+    object-fit: cover;
+}
