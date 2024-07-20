@@ -325,10 +325,33 @@ nav{
 }
 .elfin-carousel{
     gap: 32px;
-    width: 380px;
+    width: 380px !important;
+    height: 100%;
 }
 .kingdom-img{
-    width: 380px;
     height: 192px;
+    width:  100%;
     object-fit: cover;
+}
+.arcade-carousel.owl-theme{
+    gap: 42px;
+}
+.builders-para{
+    text-indent: 60px;
+}
+.arcade-btn{
+    width: 60%;
+    display: none;
+}
+.elfin-carousel:hover{
+    width: 451px;
+}
+.elfin-carousel:hover .kingdom-img{
+    height: 320px;
+    width: 451px;
+    transition: height 1s ease-in;
+    transition: width 1s ease-in;
+}
+.elfin-carousel:hover .arcade-btn{
+    display: block;
 }
