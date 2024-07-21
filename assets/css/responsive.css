@@ -28,7 +28,10 @@
     }    
     .market-section::before{
         left: 50% !important;
-    }     
+    }  
+    .builder{
+        padding-right: 100px;
+    }   
 }
 @media(max-width:1199px){
     .nav-head{
@@ -78,7 +81,7 @@
     .elfin-card-head{
         font-size: 26px;
     }    
-    .gaming-section,.arcade-section,.platform-section,.boosted-section{
+    .gaming-section,.arcade-section,.platform-section,.boosted-section,.counting-section,.partner-section{
         padding: 130px 0;
     }   
     .market-section{
@@ -117,7 +120,13 @@
     .blue-stone{
         left: 60px;
         bottom: -100px;
-    }                
+    }  
+    .partner-carousel .owl-stage{
+        gap: 60px;
+    }       
+    .builder{
+        padding-right: 50px;
+    }       
 }
 @media(max-width:991px){
     .nav-head{
@@ -185,7 +194,7 @@
         max-width: 100%;
         height: auto;
     }
-    .kingdom-section::before,.animal-bg::before,.kingdom-bg::before,.toon-beast::before,.gaming-section::before,.gaming-content::before,.arcade-section::before,.boosted-bg::before,.market-bg::before{
+    .kingdom-section::before,.animal-bg::before,.kingdom-bg::before,.toon-beast::before,.gaming-section::before,.gaming-content::before,.arcade-section::before,.boosted-bg::before,.market-bg::before,.partner-content::before{
         max-width: 100%;
         height: auto;
     }
@@ -201,7 +210,7 @@
     .card-toons{
         width: 75%;
     }    
-    .gaming-section,.arcade-section,.platform-section,.boosted-section{
+    .gaming-section,.arcade-section,.platform-section,.boosted-section,.counting-section,.partner-section{
         padding: 100px 0;
     }    
     .market-section{
@@ -256,6 +265,12 @@
         width: 100% !important;
         position: static;
     }    
+    .partner-carousel .owl-stage{
+        gap: 40px;
+    }     
+    .builder{
+        padding-right: 0px;
+    }                
 }
 @media(max-width:767px){
     .nav-head{
@@ -313,7 +328,7 @@
     .elfin-card-head{
         font-size: 22px;
     }     
-    .gaming-section,.arcade-section,.platform-section,.boosted-section{
+    .gaming-section,.arcade-section,.platform-section,.boosted-section,.counting-section,.partner-section{
         padding: 80px 0;
     }    
     .gaming-card{
@@ -335,6 +350,9 @@
     .ball{
         top: -100px;
     }
+    .partner-carousel .owl-stage{
+        gap: 30px;
+    }              
 }
 @media(max-width:575px){
     .nav-head{
@@ -388,7 +406,7 @@
     .elfin-card-head{
         font-size: 20px;
     }  
-    .gaming-section,.arcade-section,.platform-section,.boosted-section{
+    .gaming-section,.arcade-section,.platform-section,.boosted-section,.counting-section,.partner-section{
         padding: 60px 0;
     }      
     .gaming-card{
@@ -404,12 +422,15 @@
     .elfin-carousel{
         gap: 21px;
     }     
-    .stone-ball,.ball,.blue-stone{
+    .stone-ball,.ball,.blue-stone,.partner-ball{
         display: none;
     }         
     .boosted-card{
         margin-bottom: 15px;
     }  
+    .partner-carousel .owl-stage{
+        gap: 25px;
+    }              
 }
 @media(max-width:400px){
     .nav-head{
@@ -460,7 +481,7 @@
     .elfin-card-head{
         font-size: 18px;
     }  
-    .gaming-section,.arcade-section,.platform-section,.boosted-section{
+    .gaming-section,.arcade-section,.platform-section,.boosted-section,.counting-section,.partner-section{
         padding: 40px 0;
     }    
     .gaming-card{
@@ -475,5 +496,8 @@
     }      
     .elfin-carousel{
         gap: 18px;
-    }                                    
+    }   
+    .partner-carousel .owl-stage{
+        gap: 20px;
+    }                                               
 }
