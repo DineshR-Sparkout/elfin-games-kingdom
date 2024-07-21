@@ -421,8 +421,8 @@ nav{
 }
 .ball-shadow::before{
     content: "";
-    width: 100%;
-    height: 100%;
+    width: 124px;
+    height: 124px;
     opacity: 0.75;
     background: url(../images/ball.png) lightgray 50% / cover no-repeat;
     filter: blur(49.565216064453125px);
@@ -430,4 +430,64 @@ nav{
     top: 28px;
     left: -18px;
     z-index: -1;
+}
+.boosted-section{
+    padding: 143px 0 207px 0;
+    position: relative;
+    z-index: 1;
+}
+.boosted-head{
+    padding-bottom: 42px;
+}
+.boosted-card{
+    margin-bottom: 26px;
+}
+.eagle-img{
+    padding-left: 22px;
+    position: relative;
+    z-index: 1;
+}
+.eagle-img::before{
+    content:"";
+    width:100%;
+    height:100%;
+    border-radius: 7.404px;
+    opacity: 0.75;
+    background: url(../images/eagle-run.jpg) lightgray 50% / cover no-repeat;
+    filter: blur(55.530723571777344px);
+    position: absolute;
+    top: 29px;
+    left: -26px;
+    z-index: -1;
+}
+.boosted-section::before{
+    content:"";
+    width: 231px;
+    height: 339px;
+    border-radius: 339.166px;
+    background: rgba(175, 104, 249, 0.33);
+    filter: blur(96.5px);
+    position: absolute;
+    left: 48px;
+    top: 298px;
+    z-index: -1;
+}
+.boosted-bg{
+    position: relative;
+    z-index: 1;
+}
+.boosted-bg::before{
+    content: "";
+    width: 354px;
+    height: 444px;
+    border-radius: 444.166px;
+    background: rgba(188, 233, 239, 0.76);
+    filter: blur(96.5px);
+    position: absolute;
+    top: 105px;
+    left: 0;
+    z-index: -1;
+}
+.ball{
+    top: -190px;
 }
