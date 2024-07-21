@@ -15,6 +15,12 @@
     .elfin-head{
         padding-right: 0;
     }
+    .arcade-btn{
+        width: 80%;
+    }  
+    .platform-para{
+        padding-right: 70px;
+    }           
 }
 @media(max-width:1199px){
     .nav-head{
@@ -61,7 +67,7 @@
     .elfin-card-head{
         font-size: 26px;
     }    
-    .gaming-section{
+    .gaming-section,.arcade-section,.platform-section,.platform-section{
         padding: 130px 0;
     }    
     .game-pad{
@@ -73,7 +79,23 @@
     }   
     .game-card-head{
         font-size: 20px;
-    }     
+    } 
+    .discover-para{
+        padding-bottom: 60px;
+    }  
+    .elfin-carousel{
+        gap: 30px;
+    }  
+    .arcade-btn{
+        width: 100%;
+    }        
+    .platform-para{
+        padding-right: 50px;
+    }      
+    .stone-ball{
+        top: -180px;
+        right: 0;
+    }              
 }
 @media(max-width:991px){
     .nav-head{
@@ -138,8 +160,9 @@
         max-width: 100%;
         height: auto;
     }
-    .kingdom-section::before,.animal-bg::before,.kingdom-bg::before{
-        width:50%;
+    .kingdom-section::before,.animal-bg::before,.kingdom-bg::before,.toon-beast::before,.gaming-section::before,.gaming-content::before,.arcade-section::before{
+        max-width: 100%;
+        height: auto;
     }
     .card-section{
         padding: 45px 0;
@@ -153,10 +176,10 @@
     .card-toons{
         width: 75%;
     }    
-    .gaming-section{
+    .gaming-section,.arcade-section,.platform-section{
         padding: 100px 0;
     }    
-    .game-pad{
+    .game-pad,.platform-para{
         padding-right: 0;
     }    
     .gaming-card{
@@ -165,7 +188,30 @@
     }    
     .game-card-head{
         font-size: 18px;
+    }    
+    .discover-para{
+        padding-bottom: 50px;
     }     
+    .elfin-carousel{
+        gap: 27px;
+    }   
+    .builders-para{
+        text-indent: 0;
+    }  
+    .arrow-icon{
+        width: 70%;
+    }
+    .owl-nav{
+        bottom: -50px;
+        right: 10%;
+    } 
+    .stone-ball{
+        top: -150px;
+        right: 0;
+    } 
+    .shadow-ball{
+        width: 70%;
+    }                
 }
 @media(max-width:767px){
     .nav-head{
@@ -217,7 +263,7 @@
     .elfin-card-head{
         font-size: 22px;
     }     
-    .gaming-section{
+    .gaming-section,.arcade-section,.platform-section{
         padding: 80px 0;
     }    
     .gaming-card{
@@ -226,6 +272,15 @@
     }    
     .game-card-head{
         font-size: 17px;
+    }     
+    .discover-para{
+        padding-bottom: 40px;
+    }     
+    .elfin-carousel{
+        gap: 24px;
+    }  
+    .stone-ball{
+        top: -100px;
     }     
 }
 @media(max-width:575px){
@@ -274,7 +329,7 @@
     .elfin-card-head{
         font-size: 20px;
     }  
-    .gaming-section{
+    .gaming-section,.arcade-section,.platform-section{
         padding: 60px 0;
     }      
     .gaming-card{
@@ -283,6 +338,15 @@
     }      
     .game-card-head{
         font-size: 16px;
+    }     
+    .discover-para{
+        padding-bottom: 30px;
+    }      
+    .elfin-carousel{
+        gap: 21px;
+    }     
+    .stone-ball{
+        display: none;
     }             
 }
 @media(max-width:400px){
@@ -331,7 +395,7 @@
     .elfin-card-head{
         font-size: 18px;
     }  
-    .gaming-section{
+    .gaming-section,.arcade-section,.platform-section{
         padding: 40px 0;
     }    
     .gaming-card{
@@ -340,5 +404,11 @@
     }    
     .game-card-head{
         font-size: 15px;
-    }                         
+    }  
+    .discover-para{
+        padding-bottom: 20px;
+    }      
+    .elfin-carousel{
+        gap: 18px;
+    }                                    
 }
