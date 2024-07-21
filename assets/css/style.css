@@ -412,9 +412,6 @@ nav{
     top: -200px;
     right: 70px;
 }
-.ball{
-    bottom: -200px;
-}
 .ball-shadow{
     position: relative;
     z-index: 1;

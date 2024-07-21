@@ -210,7 +210,7 @@
         right: 0;
     } 
     .shadow-ball{
-        width: 70%;
+        width: 50%;
     }      
     .boosted-card{
         margin-bottom: 20px;
@@ -218,6 +218,9 @@
     .eagle-img{
         padding-left: 0;
     }             
+    .ball{
+        top: -120px;
+    }
 }
 @media(max-width:767px){
     .nav-head{
@@ -288,6 +291,10 @@
     .stone-ball{
         top: -100px;
     }     
+    .ball{
+        top: -100px;
+    }
+
 }
 @media(max-width:575px){
     .nav-head{
@@ -351,7 +358,7 @@
     .elfin-carousel{
         gap: 21px;
     }     
-    .stone-ball{
+    .stone-ball,.ball{
         display: none;
     }         
     .boosted-card{
