@@ -271,7 +271,7 @@
         </div>
       </div>
       <div class="w-full">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel big-carousel  owl-theme">
           <div class="item">
             <div class="d-flex flex-column elfin-carousel">
               <div class="toon-kingdom">
@@ -446,12 +446,75 @@
         </div>
       </div>
     </section>
+    <section class="boosted-bg market-section">
+      <div class="container market-bg">
+        <div class="row">
+          <div class="col-12 col-lg-6 pb-5 pb-lg-0">
+            <div>
+              <h2 class="elfin-head fw-bold mb-0">The Marketplace</h2>
+              <p class="elfin-para fw-medium mb-0 market-para">As a digital asset owner, you have access to the marketplace. Use this to find your favorite NFTs, trade them, stay up to date with activities, and connect with others.</p>
+              <button type="button" class="explore-btn fw-bold border-0">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-absolute blue-stone">
+        <div class="ball-shadow">
+          <picture>
+            <source type="image/webp" src="assets/images/blue-stone.webp" />
+            <source type="image/png" src="assets/images/blue-stone.png" />
+            <img src="assets/images/blue-stone.png" alt="blue-stone" width="141" height="119" loading="lazy" class="img-fluid shadow-ball"/>
+          </picture>
+        </div>
+      </div>
+      <div class="market-carousel">
+        <div class="w-full">
+          <div class="owl-carousel gold-box-carousel owl-theme">
+            <div class="item">
+              <picture>
+                <source type="image/webp" src="assets/images/gold-box.webp" />
+                <source type="image/jpg" src="assets/images/gold-box.jpg" />
+                <img src="assets/images/gold-box.jpg" alt="gold-box" width="366" height="466" loading="lazy" class="img-fluid market-img"/>
+              </picture>
+            </div>
+            <div class="item">
+              <picture>
+                <source type="image/webp" src="assets/images/rose-shield.webp" />
+                <source type="image/jpg" src="assets/images/rose-shield.jpg" />
+                <img src="assets/images/rose-shield.jpg" alt="rose-shield" width="366" height="466" loading="lazy" class="img-fluid market-img"/>
+              </picture>
+            </div>
+            <div class="item">
+              <picture>
+                <source type="image/webp" src="assets/images/insect-shield.webp" />
+                <source type="image/jpg" src="assets/images/insect-shield.jpg" />
+                <img src="assets/images/insect-shield.jpg" alt="insect-shield" width="366" height="466" loading="lazy" class="img-fluid market-img"/>
+              </picture>
+            </div>
+            <div class="item">
+              <picture>
+                <source type="image/webp" src="assets/images/pink-box.webp" />
+                <source type="image/jpg" src="assets/images/pink-box.jpg" />
+                <img src="assets/images/pink-box.jpg" alt="pink-box" width="366" height="466" loading="lazy" class="img-fluid market-img"/>
+              </picture>
+            </div>
+            <div class="item">
+              <picture>
+                <source type="image/webp" src="assets/images/blue-shield.webp" />
+                <source type="image/jpg" src="assets/images/blue-shield.jpg" />
+                <img src="assets/images/blue-shield.jpg" alt="blue-shield" width="366" height="466" loading="lazy" class="img-fluid market-img"/>
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script>  
         $(document).ready(function(){
-          $('.owl-carousel').owlCarousel({
+          $('.big-carousel').owlCarousel({
             loop:true,
             autoplay:true,
             nav:true,
@@ -477,6 +540,32 @@
               1600:{
                 items:4,
                 margin:60,
+              }
+            }
+          })
+        })  
+        $(document).ready(function(){
+          $('.gold-box-carousel').owlCarousel({
+            loop:true,
+            autoplay:true,
+            nav:false,
+            dots:false,
+            responsive:{
+              0:{
+                items:2,
+                margin:10,
+              },
+              767:{
+                items:2,
+                margin:15,
+              },
+              1199:{
+                items:2.5,
+                margin:20,
+              },
+              1600:{
+                items:4,
+                margin:30,
               }
             }
           })

@@ -488,3 +488,46 @@ nav{
 .ball{
     top: -190px;
 }
+.market-section{
+    padding: 123px 0;
+    background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.45) 100%);
+    position: relative;
+}
+.market-carousel{
+    width: 50% !important;
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+.market-para{
+    text-indent:0;
+    padding-bottom: 42px;
+}
+.market-section::before{
+    top: -33% !important;
+    left: 70% !important;
+}
+.market-bg{
+    position: relative;
+    z-index: 1;
+}
+.market-bg::before{
+    content: "";
+    width: 231px;
+    height: 339px;
+    border-radius: 339.166px;
+    background: rgba(175, 104, 249, 0.33);
+    filter: blur(96.5px);
+    position: absolute;
+    right: 0;
+    top: -133px;
+    z-index: -1;
+}
+.market-img{
+    max-height: 466px;
+    width: auto !important;
+}
+.blue-stone{
+    bottom: -100px;
+    left: 120px;
+}
