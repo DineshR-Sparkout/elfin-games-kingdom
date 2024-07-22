@@ -31,7 +31,30 @@
     }  
     .builder{
         padding-right: 100px;
+    }  
+    .footer-tree{
+        gap: 60px;
+    } 
+    .economic-card{
+        padding: 40px 50px 30px 30px;
+        gap: 80px;
+    }  
+    .get-para{
+        padding-right: 20px;
+    }      
+    .card-blue{
+        bottom: 10px;
+        right: 10px;
+    }
+    .white-btn{
+        width: 70%;
+    }
+    .get-card{
+        padding-right: 85px;
     }   
+    .community-card{
+        padding-right: 190px;
+    }     
 }
 @media(max-width:1199px){
     .nav-head{
@@ -53,6 +76,9 @@
         padding-bottom: 30px;
         font-size: 17px;
     }    
+    .footer-head{
+        font-size: 17px;
+    }
     .kingdom-section{
         padding: 90px 0 90px 0;
     }    
@@ -126,7 +152,39 @@
     }       
     .builder{
         padding-right: 50px;
-    }       
+    }     
+    .footer-tree{
+        gap: 45px;
+    }  
+    .footer-content{
+        padding: 40px 0;    
+    }      
+    .economic-section{
+        padding: 130px 50px 200px 50px;
+    }  
+    .economic-card{
+        padding: 35px 45px 27px 27px;
+        gap: 70px;
+    }    
+    .get-para{
+        padding-right: 0px;
+    }          
+    .card-blue{
+        position: static;
+        width: 50%;
+    }         
+    .white-btn,.get-btn{
+        width: 100%;
+    }
+    .get-card{
+        padding-right: 110px;
+    }    
+    .one-eye,.emojis{
+        position: static;
+    }    
+    .join{
+        width: 100%;
+    }
 }
 @media(max-width:991px){
     .nav-head{
@@ -176,6 +234,9 @@
         font-size: 16px;
         text-indent: 0;
     }   
+    .footer-head{
+        font-size: 16px;
+    }
     .explore-btn{
         padding: 10px 20px;
         gap: 9px;
@@ -194,7 +255,7 @@
         max-width: 100%;
         height: auto;
     }
-    .kingdom-section::before,.animal-bg::before,.kingdom-bg::before,.toon-beast::before,.gaming-section::before,.gaming-content::before,.arcade-section::before,.boosted-bg::before,.market-bg::before,.partner-content::before{
+    .kingdom-section::before,.animal-bg::before,.kingdom-bg::before,.toon-beast::before,.gaming-section::before,.gaming-content::before,.arcade-section::before,.boosted-bg::before,.market-bg::before,.partner-content::before,.copyright::before,footer::before,.footer-top-section::before,.footer-content::before{
         max-width: 100%;
         height: auto;
     }
@@ -270,7 +331,39 @@
     }     
     .builder{
         padding-right: 0px;
-    }                
+    }   
+    .footer-top-section{
+        padding: 20px 0;
+    }       
+    .tree-man{
+        position: static;
+    }   
+    .footer-tree{
+        gap: 40px;
+    }      
+    .icon{
+        width: 26px;
+        height: 26px;
+    }  
+    .icon-gap{
+        gap: 10px;
+    }    
+    .footer-content{
+        padding: 35px 0;                
+    }
+    .footer-stone{
+        top: -50px;
+    }    
+    .economic-section{
+        padding: 110px 40px 170px 40px;
+    }       
+    .economic-card{
+        padding: 30px;
+        gap: 60px;
+    }   
+    .get-card{
+        padding-right: 70px;
+    }              
 }
 @media(max-width:767px){
     .nav-head{
@@ -308,6 +401,9 @@
         padding-bottom: 24px;
         font-size: 15px;
     } 
+    .footer-head{
+        font-size: 15px;
+    }
     .explore-btn{
         padding: 9px 18px;
         gap: 8px;
@@ -352,7 +448,23 @@
     }
     .partner-carousel .owl-stage{
         gap: 30px;
-    }              
+    }      
+    .footer-tree{
+        gap: 35px;
+    }   
+    .footer-content{
+        padding: 30px 0;
+    }
+    .economic-section{
+        padding: 90px 35px 150px 35px;
+    }      
+    .economic-card{
+        padding: 25px;
+        gap: 50px;
+    }        
+    .get-card{
+        padding-right: 60px;
+    }                              
 }
 @media(max-width:575px){
     .nav-head{
@@ -386,6 +498,9 @@
         padding-bottom: 20px;
         font-size: 14px;
     }   
+    .footer-head{
+        font-size: 14px;
+    }
     .explore-btn{
         padding: 8px 16px;
         gap: 7px;
@@ -422,7 +537,7 @@
     .elfin-carousel{
         gap: 21px;
     }     
-    .stone-ball,.ball,.blue-stone,.partner-ball{
+    .stone-ball,.ball,.blue-stone,.partner-ball,.footer-stone{
         display: none;
     }         
     .boosted-card{
@@ -430,7 +545,27 @@
     }  
     .partner-carousel .owl-stage{
         gap: 25px;
-    }              
+    }   
+    .footer-tree{
+        gap: 30px;
+    }      
+    .footer-content{
+        padding: 25px 0;                
+    }        
+    .icon{
+        width: 20px;
+        height: 20px;
+    }  
+    .economic-section{
+        padding: 70px 30px 110px 30px;
+    }          
+    .economic-card{
+        padding: 20px;
+        gap: 40px;
+    } 
+    .get-card{
+        padding-right: 50px;
+    }                                            
 }
 @media(max-width:400px){
     .nav-head{
@@ -463,7 +598,10 @@
     .elfin-para{
         padding-bottom: 15px;
         font-size: 13px;
-    }            
+    }  
+    .footer-head{
+        font-size: 13px;
+    }          
     .explore-btn{
         padding: 7px 14px;
         gap: 6px;
@@ -499,5 +637,21 @@
     }   
     .partner-carousel .owl-stage{
         gap: 20px;
-    }                                               
+    }  
+    .footer-tree{
+        gap: 25px;
+    }      
+    .footer-content{
+        padding: 20px 0;                
+    }
+    .economic-section{
+        padding: 50px 25px 90px 25px;
+    }   
+    .economic-card{
+        padding: 15px;
+        gap: 30px;
+    }      
+    .get-card{
+        padding-right: 40px;
+    }                                                                                          
 }

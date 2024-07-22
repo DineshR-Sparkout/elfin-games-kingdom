@@ -418,8 +418,8 @@ nav{
 }
 .ball-shadow::before{
     content: "";
-    width: 124px;
-    height: 124px;
+    width: 100%;
+    height: 100%;
     opacity: 0.75;
     background: url(../images/ball.png) lightgray 50% / cover no-repeat;
     filter: blur(49.565216064453125px);
@@ -650,6 +650,7 @@ nav{
     height: 100%;
 }
 .card-blue{
+    position: absolute;
     bottom: 30px;
     right: 40px;
 }
@@ -663,6 +664,7 @@ nav{
     padding-right: 28px;
 }
 .one-eye{
+    position: absolute;
     right: 19px;
     bottom: 13px;
 }
@@ -671,6 +673,7 @@ nav{
     padding-bottom: 45px;
 }
 .emojis{
+    position: absolute;
     right: 16px;
     top: 19px;
 }
@@ -679,9 +682,6 @@ footer{
 }
 .footer-top-section{
     padding: 25px 0 23px;
-}
-.footer-content{
-    padding: 42px 0 40px 0;
 }
 .footer-head{
     color: #23273B;
@@ -701,6 +701,7 @@ footer{
     gap: 20px;
 }
 .footer-content{
+    padding: 42px 0 40px 0;    
     background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.45) 100%);
     mix-blend-mode: multiply;
 }
@@ -786,3 +787,18 @@ footer::before{
     right: 254px;
     z-index: -1;
 }
+.white-btn{
+    width: 60%;
+}
+.get-btn{
+    width: 75%;
+}
+.partner-carousel .owl-item > div {
+    cursor: pointer;
+    opacity: 0.1;
+  }
+  .partner-carousel .owl-item.center > div {
+    cursor: auto;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+  }
